@@ -5,9 +5,9 @@ int maxi(vector<int> &arr,int n)
     int maxiii=INT_MIN;
     for(int i=0;i<n;i++)
     {
-        if(ma<arr[i])
+        if(maxiii<arr[i])
         {
-            ma=arr[i];
+            maxiii=arr[i];
         }
     }
     return maxiii;
