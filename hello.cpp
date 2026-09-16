@@ -2,7 +2,7 @@
 using namespace std;
 int maxi(vector<int> &arr,int n)
 {
-    int ma=INT_MIN;
+    int maxiii=INT_MIN;
     for(int i=0;i<n;i++)
     {
         if(ma<arr[i])
@@ -10,7 +10,7 @@ int maxi(vector<int> &arr,int n)
             ma=arr[i];
         }
     }
-    return ma;
+    return maxiii;
 }
 int main()
 {
